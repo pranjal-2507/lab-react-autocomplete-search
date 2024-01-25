@@ -1,0 +1,40 @@
+.custom-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-search-container{
+ margin-left: 550px;
+}
+.search-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+datalist {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
